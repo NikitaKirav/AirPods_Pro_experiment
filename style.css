@@ -1,0 +1,191 @@
+body {
+    background: #000;
+    height: 850vh;
+    margin: 0;
+}
+
+ul, p {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    position: absolute;
+}
+
+h1 {
+    color: #f5f5f7;
+    text-align: center;
+    font-size: 150px;
+    line-height: .66667;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.mainPart {
+    position: relative;
+}
+
+.airPodsProBlock {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+
+.airPodsProText {
+    position: absolute;
+    width: 100%;
+    padding-bottom: 200px;
+    opacity:0;
+    pointer-events: all;
+    transition: 1s;
+    animation: show 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.testProjectText {
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    color: #f5f5f7;
+    text-align: center;
+    font-size: 22px;
+    line-height: .66667;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    opacity:0;
+    transition: 1s;
+    animation: show 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.header {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes show{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+
+
+.bulletedListElement {
+    position: relative;
+    height: 700vh;
+}
+
+.stickyBlock {
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    color: #f5f5f7;
+    text-align: center;
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 700;
+    letter-spacing: -.0045em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    top: 0;
+    height: 100vh;
+    opacity:1;
+    display: -webkit-box;
+    justify-content: center;  
+    -webkit-box-align: center;  
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+}
+
+.textBlock {
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+}
+
+.textBlock.active {
+    visibility: visible;
+}
+
+
+.scrollSequence {
+    position: absolute;
+    height: 850vh;
+    width: 100%;
+    top: 0;
+}
+
+.sequenceContainer {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.imageSequence {
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    overflow: hidden;
+}
+
+.canvasContainer {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 52px);
+    padding-top: 52px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.canvasWrapper {
+    position: absolute;
+    z-index: 11;
+    opacity: 1;
+}
+
+.canvas1 {
+    width: 1158px;
+    height: 770px;
+    opacity: 0;
+    transition: 1s;
+    animation: show 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+}
+
+.canvas2 {
+    width: 1458px;
+    height: 820px;
+}

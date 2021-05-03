@@ -1,0 +1,88 @@
+.appleLogo {
+    background-size: 16px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/6/ru_RU/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg);
+    background-position: center center;
+    width: 16px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 10px;
+    height: 44px;
+    opacity: .8;
+}
+
+.menu_item {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    height: 44px;
+    z-index: 1;
+    vertical-align: top;
+}
+
+.menuList {
+    cursor: default;
+    margin: 0 -10px;
+    width: auto;
+    height: 44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.blockMenu {
+    max-width: 44.2px;
+    font-size: 14px;
+    line-height: 3.14286;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #f5f5f7;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 10px;
+    height: 44px;
+    opacity: .8;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.appleSearch {
+    background-size: 18px 88px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/6/ru_RU/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__fca9mfoh8a2q_large.svg);
+    background-position: center center;
+    width: 18px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 10px;
+    height: 44px;
+    opacity: .8;
+    background-position: 10px 0;
+}
+
+.appleBag {
+    background-size: 17px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/6/ru_RU/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__bmix8075eg4i_large.svg);
+    background-position: center center;
+    width: 17px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 10px;
+    height: 44px;
+    opacity: .8;
+    background-position: 10px 0;
+}
