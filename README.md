@@ -6,4 +6,4 @@ The project used the following: HTML, CSS, Javascript.
 Demo is here: https://nikitakirav.github.io/AirPods_Pro_experiment/index.html
 
 ***
-***I my experiment will be useful for you!***
+***I hope my experiment will be useful for you!***
